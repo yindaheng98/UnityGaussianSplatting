@@ -1774,7 +1774,7 @@ MonoBehaviour:
   savePath: D:\MyPrograms
   saveName: test.txt
   enable: 1
-  HMDCamera: {fileID: 0}
+  HMDCamera: {fileID: 1462254337}
   LeftController: {fileID: 0}
   RightController: {fileID: 0}
 --- !u!1 &1578397768
