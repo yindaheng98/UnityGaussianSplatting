@@ -1567,6 +1567,7 @@ GameObject:
   - component: {fileID: 1462254337}
   - component: {fileID: 1462254336}
   - component: {fileID: 1462254339}
+  - component: {fileID: 1462254340}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1758,6 +1759,24 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   m_HasMigratedActions: 1
+--- !u!114 &1462254340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462254335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 175891368bebc6244b09beaa3821d7fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savePath: D:\MyPrograms
+  saveName: test.txt
+  enable: 1
+  HMDCamera: {fileID: 0}
+  LeftController: {fileID: 0}
+  RightController: {fileID: 0}
 --- !u!1 &1578397768
 GameObject:
   m_ObjectHideFlags: 0
