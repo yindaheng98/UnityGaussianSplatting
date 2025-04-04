@@ -91,7 +91,7 @@ public class NewBehaviourScript : MonoBehaviour
             Debug.LogFormat("camera position at {0}", HMDCamera.transform.position);
             Debug.LogFormat("content now has {0} Lines", contents.Count);
         }
-        string temp = $"{Time.time}, {currentPos}, {currentRot}";
+        string temp = $"{Time.time}, {currentPos.ToString("F6")}, {currentRot.ToString("F6")}";
         contents.Add(temp);
     }
 
